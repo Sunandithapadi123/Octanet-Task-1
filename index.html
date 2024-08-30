@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Corrected Flaticon Link -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Just+Another+Hand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section id="logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="https://icon-library.com/images/lines-clocks-512.png" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>We're working hard, we'll be ready to launch soon...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="countdown"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="icons">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-inline">
+                        <a href="http://www.twitter.com" target="blank">
+                            <li class="list-inline-item">
+                                <i class="ri twitter ri-twitter-x-line"></i>
+                            </li>
+                        </a>
+                        <a href="http://www.instagram.com" target="blank">
+                            <li class="list-inline-item">
+                                <i class="ri instagram ri-instagram-line"></i>
+                            </li>
+                        </a>
+                        <a href="http://www.google.com" target="blank">
+                            <li class="list-inline-item">
+                                <i class="ri google ri-google-line" aria-hidden="true"></i>
+                            </li>
+                        </a>
+                        <a href="http://www.facebook.com" target="blank">
+                            <li class="list-inline-item">
+                                <i class="ri facebook ri-facebook-fill"></i>
+                            </li>
+                        </a>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="signup">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                   <form class="form-inline" role="form" method="post" action="#signup">
+                    <input type="email" class="form-control form-control-sm custom-input " name="email" placeholder="enter your email">
+                    <button type="submit" class="btn btn-signup btn-sm" name="submit" value="send">find out more</button>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script>
+        $(function() {
+            $('.countdown').countdown({
+                date: "September 28, 2024 15:03:26"
+            });
+        });
+    </script>
+  </body>
+</html>
